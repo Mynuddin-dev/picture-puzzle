@@ -45,7 +45,7 @@ public class Launcher extends javax.swing.JFrame {
         jPanel1.add(jButton4);
         jButton4.setBounds(640, 470, 280, 50);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/picture_puzzle_project/figure-3277570_1280.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/picture_puzzle_project/figure-3277570_1280.jpg")));
         jPanel1.add(jLabel1);
         jLabel1.setBounds(0, 0,1200, 750);
 
