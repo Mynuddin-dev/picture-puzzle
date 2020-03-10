@@ -28,7 +28,7 @@ public static void main(String[] args)
         try
         {
             InputStream test = new FileInputStream("D:\\Project\\Picture_Puzzle_Project\\picture-puzzle\\src\\picture_puzzle_project\\Brain_Puzzle\\no-2.wav");
-            BGM = new AudioStream(test);
+            BGM = new AudioStream(test);             //Its the file path of your music.
             AudioPlayer.player.start(BGM);
             MD = BGM.getData();
             loop = new ContinuousAudioDataStream(MD);
