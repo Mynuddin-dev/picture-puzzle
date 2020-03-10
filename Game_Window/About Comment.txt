@@ -1,0 +1,6 @@
+In this Game window ,the all file which are contain unnecessary comment i delete this and all comment is not a code smell .it's depends.
+Commentd are code smell or not ?
+1.https://adamtom.at/articles/comments-are-code-smells/
+2.https://pragtob.wordpress.com/2017/11/14/are-comments-a-code-smell-yes-no-it-depends/
+
+I don't find any code smell in this project. May be i have not enough idea about code smell.The posibility of code smell in this project may be "Long parameter List"
