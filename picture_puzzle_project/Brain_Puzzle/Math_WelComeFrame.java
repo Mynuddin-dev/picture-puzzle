@@ -62,7 +62,7 @@ public class Math_WelComeFrame extends javax.swing.JFrame {
         
      
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TestPackage/Math.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TestPackage/Math.png")));
         jPanel1.add(jLabel1);
         jLabel1.setBounds(0, 10, 1190, 770);
 
