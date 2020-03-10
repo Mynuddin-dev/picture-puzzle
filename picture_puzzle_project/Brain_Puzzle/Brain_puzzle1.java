@@ -12,29 +12,16 @@ import java.util.logging.Logger;
     int count=0;
     Brain_puzzle1(){  
         f=new JFrame();  
-        
-        
-          
-        
         f.setBounds(400,200,1200,750);  
         f.setVisible(true); 
         f.setLayout(new GridLayout(20,20));  
-        
-        
-        JButton[] button = new JButton[400];
-              
-        
-        
+         JButton[] button = new JButton[400];
         for(int i=0;i<400;i++){
             String k =  String.valueOf(i);
             String b = "b";
             
-           button[i] = new JButton(k);
-            
-            
-            f.add(button[i]);
-
-            
+           button[i] = new JButton(k);   
+            f.add(button[i]);   
         }
         
        double n = Math.random()*4;
@@ -68,9 +55,7 @@ import java.util.logging.Logger;
                         JOptionPane.showMessageDialog(null,"your Answer is corect and your totalTime is "+time+" Second And you point is "+count);
                         
                         f.dispose();
-                        new Brain_puzzle1();
-                        
-                       
+                        new Brain_puzzle1();   
                     }
                     else{
                         for(int i =0;i<400;i++)
@@ -111,11 +96,7 @@ import java.util.logging.Logger;
                     {
                         for(int i=0;i<400;i++)
                         {
-                            button[i].setBackground(Color.GREEN);
-                            
-                            
-                           
-                            
+                            button[i].setBackground(Color.GREEN); 
                         }
                         long solve2 = System.currentTimeMillis();
                         long time =(solve2-time2)/1000;
@@ -127,9 +108,6 @@ import java.util.logging.Logger;
                         
                         f.dispose();
                         new Brain_puzzle1();
-                        
-                        
-                       
                     }
                     else{
                         for(int i =0;i<400;i++)
@@ -171,9 +149,6 @@ import java.util.logging.Logger;
                         {
                             button[i].setBackground(Color.GREEN);
                             
-                            
-                           
-                            
                         }
                         long solve3 = System.currentTimeMillis();
                         long time =(solve3-time3)/1000;
@@ -185,10 +160,6 @@ import java.util.logging.Logger;
                         
                         f.dispose();
                         new Brain_puzzle1();
-                        
-                        
-                        
-                       
                     }
                     else{
                         for(int i =0;i<400;i++)
@@ -230,10 +201,6 @@ import java.util.logging.Logger;
                         for(int i=0;i<400;i++)
                         {
                             button[i].setBackground(Color.GREEN);
-                            
-                            
-                           
-                            
                         }
                         long solve3 = System.currentTimeMillis();
                         long time =(solve3-time4)/1000;
@@ -245,9 +212,6 @@ import java.util.logging.Logger;
                         
                         f.dispose();
                         new Brain_puzzle1();
-                        
-                        
-                       
                     }
                     else{
                         for(int i =0;i<400;i++)
@@ -289,9 +253,6 @@ import java.util.logging.Logger;
                         {
                             button[i].setBackground(Color.GREEN);
                             
-                            
-                           
-                            
                         }
                         long solve3 = System.currentTimeMillis();
                         long time =(solve3-time4)/1000;
@@ -303,10 +264,6 @@ import java.util.logging.Logger;
                         
                         f.dispose();
                         new Brain_puzzle1();
-                        
-                        
-                        
-                       
                     }
                     else{
                         for(int i =0;i<400;i++)
@@ -330,28 +287,13 @@ import java.util.logging.Logger;
                 
             });
         } 
-        
-        
-        
-        
-        
            
        }
-       
-        
-        
-        
-        
-        
+      
         f.setBounds(400,200,1200,750);  
         f.setVisible(true); 
         f.setLayout(new GridLayout(20,20));  
-          
-      
-        
         //setting grid layout of 3 rows and 3 columns  
-      
-         
     }  
     public static void main(String[] args) {  
         new Brain_puzzle1();  
